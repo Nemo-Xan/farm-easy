@@ -1,0 +1,31 @@
+export default  Font = {
+  MontserratBlack: "MontserratBlack",
+  MontserratBold: "MontserratBold",
+  MontserratExtraBold: "MontserratExtraBold",
+  MontserratExtraLight: "MontserratExtraLight",
+  MontserratRegular: "MontserratRegular",
+  MontserratMedium: "MontserratMedium",
+  MontserratLight: "MontserratLight",
+  MontserratSemiBold: "MontserratSemiBold",
+  MontserratSemiBoldItalic: "MontserratSemiBoldItalic",
+  MontserratThin: "MontserratThin",
+  Poppins: "Poppins",
+  PoppinsBold: "PoppinsBold",
+  PoppinsSemiBold: "PoppinsSemiBold",
+};
+
+export const FontList = {
+  MontserratBlack: require("../assets/fonts/Montserrat/Montserrat-Black.ttf"),
+  MontserratBold: require("../assets/fonts/Montserrat/Montserrat-Bold.ttf"),
+  MontserratExtraBold: require("../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf"),
+  MontserratExtraLight: require("../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf"),
+  MontserratRegular: require("../assets/fonts/Montserrat/Montserrat-Regular.ttf"),
+  MontserratMedium: require("../assets/fonts/Montserrat/Montserrat-Medium.ttf"),
+  MontserratLight: require("../assets/fonts/Montserrat/Montserrat-Light.ttf"),
+  MontserratSemiBold: require("../assets/fonts/Montserrat/Montserrat-SemiBold.ttf"),
+  MontserratSemiBoldItalic: require("../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf"),
+  MontserratThin: require("../assets/fonts/Montserrat/Montserrat-Thin.ttf"),
+  Poppins: require("../assets/fonts/Poppins-Regular.ttf"),
+  PoppinsBold: require("../assets/fonts/Poppins-Bold.ttf"),
+  PoppinsSemiBold: require("../assets/fonts/Poppins-SemiBold.ttf"),
+}

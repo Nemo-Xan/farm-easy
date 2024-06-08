@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "FarmEASY",
+    "slug": "farm-easy",
+    "scheme": "farm-easy",
+    "version": "1.6.3",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#00000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e02cce07-f3cb-4680-91a5-9096d660eb49"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 37,
+      "package": "com.aligoni_jr.fmeapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBk-o4btPwqOvOrxjbHPMhw3frUOHhSKaE"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e02cce07-f3cb-4680-91a5-9096d660eb49"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "plugins": [
+      "sentry-expo"
+    ],
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "abdulaziz-goni",
+            "project": "farm-easy",
+            "authToken": "20dd71e5a0824b0a846a859bf455266ee355ddc4822d4028910279bf3877fd48"
+          }
+        }
+      ]
+    }
+  }
+}
